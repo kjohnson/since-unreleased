@@ -4,6 +4,6 @@
     "minimum-stability": "dev",
     "require": {},
     "bin": [
-        "bin/since-unreleased"
+        "bin/since-unreleased.sh"
     ]
 }
