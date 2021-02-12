@@ -1,5 +1,6 @@
 {
     "name": "kjohnson/since-unreleased",
+    "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "require": {},
     "bin": [
