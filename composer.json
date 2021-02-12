@@ -1,0 +1,8 @@
+{
+    "name": "kylebjohnson/since-unreleased",
+    "minimum-stability": "dev",
+    "require": {},
+    "bin": [
+        "bin/since-unreleased"
+    ]
+}
