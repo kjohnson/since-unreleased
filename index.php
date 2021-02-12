@@ -1,0 +1,9 @@
+<?
+
+/**
+ * @since {{UNRELEASED}}
+ */
+function foo() {
+	// ...
+}
+
