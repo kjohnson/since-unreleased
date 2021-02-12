@@ -1,7 +1,7 @@
 <?
 
 /**
- * @since 2.0.1
+ * @unreleased
  */
 function foo() {
 	// ...
