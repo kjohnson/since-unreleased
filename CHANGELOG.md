@@ -5,6 +5,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.0.0 - 2021-03-26
+
 This version is a breaking change. The bash script arguments are now the target directory followed by the version number.
 
 ### New
