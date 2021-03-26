@@ -2,7 +2,7 @@
 
 ## Installation
 
-`composer require kjohnson/since-unreleased:dev-master`
+`composer require kjohnson/since-unreleased`
 
 ## Usage
 
@@ -13,9 +13,9 @@ Given the following sytax:
  */ 
 ```
 
-Run the script, passing a version number:
+Run the script, passing the target directory followed by the version number:
 ```
-./vendor/bin/since-unreleased 1.0.1
+./vendor/bin/since-unreleased example/ 1.0.1
 ```
 
 and the `@unreleased` tag will be updated.
