@@ -13,4 +13,4 @@
 # @note `sed -Ei` Same as -E -i with no backup suffix - FILE will be edited in-place without creating a backup.
 # -exec sed -Ei "s/@unreleased/@since $2/g" {} \;
 
-find $1 -type f \( -name "*.php" -o -name "*.js" -o -name "*.jsx" \) -not \( -path "./vendor/*" -o -path "./node_modules/*" \) -exec sed -Ei "s/@unreleased/@since $2/g" {} \;
+find "$1" -type f \( -name "*.php" -o -name "*.js" -o -name "*.jsx" \) -not \( -path "./vendor/*" -o -path "./node_modules/*" \) -exec sed -Ei "s/@unreleased/@since $2/g" {} \;
